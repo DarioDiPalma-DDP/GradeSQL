@@ -7,38 +7,6 @@ This toolkit enables researchers and practitioners to:
 - Build a synthetic dataset and train an **ORM-based ranker** in one step. 
 - Reproduce experiments from the paper on benchmarks such as Spider and BIRD. 
 
-## Downloads
-| **GradeSQL models** | **Download Latest** |
-|-----------|------------------|
-| 7B-ORM-Bird | [🤗 HuggingFace](https://huggingface.co/sisinflab-ai/GradeSQL-7B-ORM-Bird) |
-| 7B-ORM-Spider | [🤗 HuggingFace](https://huggingface.co/sisinflab-ai/GradeSQL-7B-ORM-Spider) |
-| 14B-ORM-Bird | [🤗 HuggingFace](https://huggingface.co/sisinflab-ai/GradeSQL-14B-ORM-Bird) |
-| 14B-ORM-Spider | [🤗 HuggingFace](https://huggingface.co/sisinflab-ai/GradeSQL-14B-ORM-Spider) |
-| 32B-ORM-Bird | [🤗 HuggingFace](https://huggingface.co/sisinflab-ai/GradeSQL-32B-ORM-Bird) |
-| 32B-ORM-Spider | [🤗 HuggingFace](https://huggingface.co/sisinflab-ai/GradeSQL-32B-ORM-Spider) |
-
-| **GradeSQL training datasets** | **Download Latest** |
-|-----------|------------------|
-| Bird balanced | [🤗 HuggingFace](https://huggingface.co/datasets/sisinflab-ai/GradeSQL-training-dataset-bird-balanced) |
-| Bird unbalanced  | [🤗 HuggingFace](https://huggingface.co/datasets/sisinflab-ai/GradeSQL-training-dataset-bird-unbalanced) |
-| Spirder balanced |  [🤗 HuggingFace](https://huggingface.co/datasets/sisinflab-ai/GradeSQL-training-dataset-spider-balanced) |
-| Spirder unbalanced |  [🤗 HuggingFace](https://huggingface.co/datasets/sisinflab-ai/GradeSQL-training-dataset-spider-unbalanced) |
-
-If you use **GradeSQL** in your research, please cite the following paper:  
-
-```bibtex
-@misc{gradesqloutcomerewardmodels2025,
-      title={GradeSQL: Outcome Reward Models for Ranking SQL Queries from Large Language Models}, 
-      author={Mattia Tritto and Giuseppe Farano and Dario Di Palma and Gaetano Rossiello and Fedelucio Narducci and Dharmashankar Subramanian and Tommaso Di Noia},
-      year={2025},
-      eprint={2509.01308},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2509.01308}, 
-}
-```
-
-
 ## Prerequisites
 
 - **Python Version**: Python 3.11 (recommended)
