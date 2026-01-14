@@ -29,7 +29,7 @@ cd project_dir
 Clone the GradeSQL repository from GitHub into your project directory:
 
 ```sh
-git clone https://github.com/sisinflab/GradeSQL
+git clone https://github.com/.../GradeSQL
 ```
 
 After cloning, your directory structure should look like:
